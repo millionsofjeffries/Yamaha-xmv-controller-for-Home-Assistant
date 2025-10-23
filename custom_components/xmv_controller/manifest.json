@@ -1,0 +1,11 @@
+{
+  "domain": "xmv_controller",
+  "name": "Yamaha XMV Controller for Home Assistant",
+  "config_flow": true,
+  "documentation": "https://github.com/millionsofjeffries/Yamaha-xmv-controller-for-Home-Assistant"
+  "issue_tracker": "https://github.com/millionsofjeffries/Yamaha-xmv-controller-for-Home-Assistant/issues",
+  "codeowners": ["@millionsofjeffries"],
+  "requirements": [],
+  "version": "1.0.0",
+  "iot_class": "local_polling"
+}

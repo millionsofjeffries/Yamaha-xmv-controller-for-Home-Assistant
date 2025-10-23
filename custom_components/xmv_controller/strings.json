@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to your Yamaha XMV Amplifier",
+        "description": "Enter the connection details for your amplifier.",
+        "data": {
+          "host": "IP Address",
+          "port": "Port",
+          "channels": "Output Zones (e.g., 0:Zone1, 4:Kitchen)",
+          "min_db": "Minimum Volume (dB)",
+          "max_db": "Maximum Volume (dB)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Please check the IP address and port.",
+      "invalid_channels": "Invalid channel format. Must be 'ID:Name' pairs separated by commas.",
+      "unknown": "An unknown error occurred."
+    },
+    "abort": {
+      "already_configured": "This amplifier is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Yamaha XMV Amplifier",
+        "description": "Update the connection details for your amplifier.",
+        "data": {
+          "host": "IP Address",
+          "port": "Port",
+          "channels": "Output Zones (e.g., 0:Zone1, 4:Kitchen)",
+          "min_db": "Minimum Volume (dB)",
+          "max_db": "Maximum Volume (dB)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Please check the IP address and port.",
+      "invalid_channels": "Invalid channel format. Must be 'ID:Name' pairs separated by commas."
+    }
+  }
+}
