@@ -2,7 +2,7 @@
 
 This is a custom component for Home Assistant to control Yamaha XMV series AV processors / amplifiers over an IP network.  These processors/amps are usually located in commercial settings e.g. Theatres, Restaurants etc and can be controlled remotely via various methods.  This has all been tested with a XMV-MTX3 Matrix processor.
 
-It creates a media_player entity for each configured output zone, allowing you to independently control power, volume, and mute for each one. The component maintains a persistent, real-time connection to the amplifier, so any changes made from other sources (like a wall panel) will be instantly reflected in Home Assistant.
+It creates a media_player entity for each configured output zone, allowing you to independently control channel state (ON OR OFF), volume, and mute for each one. The component maintains a persistent, real-time connection to the amplifier, so any changes made from other sources (like a wall panel) will be instantly reflected in Home Assistant.
 
 **Features**
 
