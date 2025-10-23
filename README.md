@@ -66,12 +66,13 @@ You can update the IP, port, channel list, and volume range. The integration wil
 
 **Debugging**
 To enable debug logging, add the following to your configuration.yaml file and restart Home Assistant:
-`
+
+<pre>
 logger:
   default: info
   logs:
     custom_components.xmv_controller: debug
-`
+</pre>
 
 **Future enhancemenets**
 
