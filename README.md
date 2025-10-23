@@ -72,6 +72,7 @@ logger:
   logs:
     custom_components.xmv_controller: debug
 `
+
 **Future enhancemenets**
 
 Nearly all of the functions of the XMV series can be controlled over IP.  I've just concentrated on turning a zone output channel on or off and altering the volume level of output zones, as that's all I wanted to do!
