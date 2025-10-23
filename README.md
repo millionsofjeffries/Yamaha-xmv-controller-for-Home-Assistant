@@ -7,7 +7,7 @@ It creates a media_player entity for each configured output zone, allowing you t
 **Features**
 
 - Multi-Zone Control: Creates a separate media_player entity for each output zone you define.
-- Power Control: Turn channels on and off.
+- Channel State Control: Turn channels on and off.
 - Volume Control: Adjust volume with a fader.
 - Mute Control: Mute and unmute channels.
 - Real-Time Status: A persistent listener instantly updates Home Assistant if the amp's state is changed externally.
