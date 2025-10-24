@@ -1,6 +1,6 @@
 **Home Assistant - Yamaha XMV MTX Controller** v1.0
 
-This is a custom component for Home Assistant to control Yamaha XMV series AV processors / amplifiers over an IP network.  These processors/amps are usually located in commercial settings e.g. Theatres, Restaurants etc and can be controlled remotely via various methods.  This has all been tested with a XMV-MTX3 Matrix processor.
+This is a custom component for Home Assistant to control Yamaha XMV series MTX AV processors / amplifiers over an IP network.  These processors/amps are usually located in commercial settings e.g. Theatres, Restaurants etc and can be controlled remotely via various methods.  This has all been tested with a XMV-MTX3 Matrix processor.
 
 It creates a media_player entity for each configured output zone, allowing you to independently control channel state (ON OR OFF), volume, and mute for each one. The component maintains a persistent, real-time connection to the amplifier, so any changes made from other sources (like a wall panel) will be instantly reflected in Home Assistant.
 
@@ -45,8 +45,8 @@ All configuration is handled in the Home Assistant UI.
 3. Search for "XMV Controller" and select it.
 4. A configuration form will appear.
 5. Configuration Fields
-6. IP Address: The IP address of your Yamaha XMV amplifier (e.g., 192.168.1.100).
-7. Port: The control port for the amplifier. The default is 49280.
+6. IP Address: The IP address of your Yamaha XMV MTX processor / amplifier (e.g., 192.168.1.100).
+7. Port: The control port for the MTX processor / amplifier. The default is 49280.
 8. Channels / Zones (e.g., 0:Zone1, 4:Kitchen): This is the most important field. You must provide a comma-separated list of ID:Name pairs.
 9. ID: The internal channel ID the amplifier uses for a fader. This is the Xpos value from the Yamaha protocol (e.g., 0, 4).
 10. Name: The "friendly name" you want to see for this channel in Home Assistant (e.g., "Living Room", "Kitchen").
