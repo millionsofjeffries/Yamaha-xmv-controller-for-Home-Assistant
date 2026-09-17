@@ -26,14 +26,16 @@ Manual Installation
 Your final directory structure should look like this:
 
 <pre>
-xmv_control
-├── __init__.py
-├── api.py
-├── config_flow.py
-├── const.py
-├── manifest.json
-├── media_player.py
-└── strings.json
+homeassistant
+ ├── custom_components
+   ├── xmv_control
+      ├── __init__.py
+      ├── api.py
+      ├── config_flow.py
+      ├── const.py
+      ├── manifest.json
+      ├── media_player.py
+      └── strings.json
 </pre>
 6. Restart Home Assistant. This is a crucial step for it to find and load the new component.
 
